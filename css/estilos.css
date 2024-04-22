@@ -5,3 +5,36 @@
 h1 {
     font-weight: 700;
 }
+
+
+iframe {
+    max-width: 100%;
+}
+
+.imgPortada {
+    width: 100%;
+    
+}
+
+@media (min-width: 400px) { 
+    .containerMaps {
+       display: flex;
+       display: wrap;
+       background-color: yellow;
+       
+        
+    }
+
+    .mapa1{
+        background-color: green;
+        width: 50%;
+    }
+
+    .mapa2 {
+        background-color: green;
+        width: 50%;
+    }
+   
+
+
+}
