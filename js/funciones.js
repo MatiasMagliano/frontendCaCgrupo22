@@ -1,0 +1,4 @@
+function miFuincion()
+{
+    let variable;
+}
