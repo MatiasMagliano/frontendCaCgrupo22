@@ -1,28 +1,30 @@
+/*** GLOBALES ***/
 * {
     padding: 5px;
 }
 
-h1 {
-    font-weight: 700;
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 
+/*** CUERPO PAGINA - MOBILE FIRST ***/
+#logo {
+    width: 100px;
+}
 iframe {
     max-width: 100%;
 }
 
-.imgPortada {
-    width: 100%;
-    
-}
 
+/*** CUERPO PAGINA - TABLETS ***/
 @media (min-width: 400px) { 
     .containerMaps {
        display: flex;
        display: wrap;
        background-color: yellow;
-       
-        
     }
 
     .mapa1{

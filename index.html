@@ -1,140 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
     <title>CrazyPeople__ClasesRollers</title>
 </head>
+
 <body>
-    
-<header>
-    <img src="img/logo1.jpg" width="100px" height="">
-    <ul>
-        <li>Clases</li>
-        <li>Horaios</li>
-        <li>Sedes</li>
-        <li>Profes</li>
-        <li>Consultas</li>
-        <li>Alumnos</li>
-    </ul>
-</header>
 
-<!-- puede ser eso o directamente un carrusell de fotos o buscar 
-otra img de presentación-->
-<img class="imgPortada" src="img/p.jpg" alt="">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img id="logo" src="img/logo1.jpg">
+                    <!-- <span>Crazy People</span> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Clases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Horaios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sedes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Consultas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Alumnos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<section>
-    <!-- la idea es poner una imagen de fondo en cada texto-->
-    <h1>CLASES</h1>
-    <div> 
-        <h2>BASICO/URBANO</h2>
-        <p>
-            En estas clases aprenderas todas las habilidades y recursos necesarios 
-            para salir a patinar con seguridad y confianza empezando con los primeros pasos 
-            y la forma correcta y tecnica de patinar. Ya sea que quieras solo pasear o salir
-            a las calles. Veremos distintos tipos de frenos como esquivar, doblar y cruzar 
-            diversos obtaculos. También patinaje para atras, transcisiones, destrezas entre 
-            conos, saltos y derrapes. Todo esto podemos verlo desde cero y tambien perfeccionar lo
-            lo que ya sabes
-         </p>
-    </div>
-    <div>       
-        <h2>INLINE / FREE STYLE</h2>
-        <p>
-           En estas clases aprenderas trucos y movimientos entre conos pequeños. Esta disciplina es super  
-           entretenida! Hay muchisimos trucos e infinitas combinaciones para ver. Existen trucos de 
-           frente, de espaldas, laterales, con giros, con saltos, agachados, de flexibilidad y mucho más. 
-           Todos los trucos están divididos por categorias y familias. Lograras manejar tu cuerpo sobre los rollers
-           de una manera única. No necesitas un gran nivel para empezar con los basico, patinando para adelante
-           es suficiente. El aprendizaje es progresivo y acorde a tu nivel.
+    <!-- puede ser eso o directamente un carrusell de fotos o buscar otra img de presentación-->
+    <img class="imgPortada" src="img/p.jpg" alt="">
 
-        </p>
+    <main>
+        <!-- la idea es poner una imagen de fondo en cada texto-->
+        <h1>CLASES</h1>
+        <section id="clases">
+            <div>
+                <h2>BASICO/URBANO</h2>
+                <p>
+                    En estas clases aprenderas todas las habilidades y recursos necesarios para salir a patinar con seguridad y confianza empezando con los primeros pasos y la forma correcta y tecnica de patinar. Ya sea que quieras solo pasear o salir a las calles. Veremos distintos tipos de frenos como esquivar, doblar y cruzar diversos obtaculos. También patinaje para atras, transcisiones, destrezas entre conos, saltos y derrapes. Todo esto podemos verlo desde cero y tambien perfeccionar lo lo que ya sabes.
+                </p>
+            </div>
+            <div>
+                <h2>INLINE / FREE STYLE</h2>
+                <p>
+                    En estas clases aprenderas trucos y movimientos entre conos pequeños. ¡Esta disciplina es super entretenida! Hay muchisimos trucos e infinitas combinaciones para ver. Existen trucos de frente, de espaldas, laterales, con giros, con saltos, agachados, de flexibilidad y mucho más. Todos los trucos están divididos por categorias y familias. Lograras manejar tu cuerpo sobre los rollers de una manera única. No necesitas un gran nivel para empezar con los basico, patinando para adelante es suficiente. El aprendizaje es progresivo y acorde a tu nivel.
+                </p>
+            </div>
+        </section>
 
-    </div>
-   
-
-    </P>
-</section>
-
-<section>   <!-- DOS COLUMNAS -->
-    
-    <h1> HORARIOS </h1>
-    <h2>PALERMO</h2>  
-    <h2>PUERTO MADERO</h2>
-</section>
-
-
-
-     <!-- DOS COLUMNAS 
-        no pude acomodar bien los divs !
-    -->
-    <h1> SEDES</h1>
-<section class="containerMaps">
-    <div class="mapa1">
-        <h2>PALERMO</h2>  
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3285.4438350595024!2d-58.42325212426128!3d-34.567634572967215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDM0JzAzLjUiUyA1OMKwMjUnMTQuNCJX!5e0!3m2!1ses!2sar!4v1713816694619!5m2!1ses!2sar" 
-        width="600" height="450" style="border:0;" allowfullscreen="" 
-        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>  
-    <div class="mapa2">
-        <h2>PUERTO MADERO</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3283.8070711651762!2d-58.36630142425956!3d-34.60903977295233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDM2JzMyLjUiUyA1OMKwMjEnNDkuNCJX!5e0!3m2!1ses-419!2sar!4v1713816352235!5m2!1ses-419!2sar" 
-        width="600" height="450" style="border:0;" allowfullscreen="" 
-        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   </div>
-</section>
-
-<section>
-    <!-- DOS TARJETAS -->
-    <h1> PROFES</h1>
-
-    <div>
-        <h2>  </h2>
-        <img src="" alt="">
-        <p>
-
-        </p>
-    </div>
-    
-    <div>
-        <h2>  </h2>
-        <img src="" alt="">
-        <p>
-                    
-        </p>
-    </div>
-    
-</section>
+        <h1> HORARIOS </h1>
+        <section id="horarios"> <!-- DOS COLUMNAS -->
+            <div class="hor-palermo">
+                <h2>PALERMO</h2>
+                <ul>
+                    <li>horario 1</li>
+                    <li>horario 2</li>
+                    <li>horario 3</li>
+                    <li>horario 4</li>
+                    <li>horario 5</li>
+                </ul>
+            </div>
+            <div class="hor-ptomadero">
+                <h2>PUERTO MADERO</h2>
+                <ul>
+                    <li>horario 1</li>
+                    <li>horario 2</li>
+                    <li>horario 3</li>
+                </ul>
+            </div>
+        </section>
 
 
-<section >
-    <h1> CONSULTAS</h1>
 
-    <div>
-       <form action="">
-          <div>
-             <div>
-                <label for="">Nombre</label>
-                <input type="text" name="nombre" id="">
-             </div>
-             <div>
-                <label for="">mail</label>
-                <input type="mail" name="mail" id="">
-             </div>
-          </div>
-          <label for="">Comentarios</label>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <input type="submit" value="Enviar">
-       </form>
-    </div>
+        <!-- DOS COLUMNAS no pude acomodar bien los divs ! -->
+        <h1> SEDES</h1>
+        <section class="containerMaps">
+            <div class="mapa1">
+                <h2>PALERMO</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3285.4438350595024!2d-58.42325212426128!3d-34.567634572967215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDM0JzAzLjUiUyA1OMKwMjUnMTQuNCJX!5e0!3m2!1ses!2sar!4v1713816694619!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="mapa2">
+                <h2>PUERTO MADERO</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3283.8070711651762!2d-58.36630142425956!3d-34.60903977295233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDM2JzMyLjUiUyA1OMKwMjEnNDkuNCJX!5e0!3m2!1ses-419!2sar!4v1713816352235!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section>
+            <!-- DOS TARJETAS -->
+            <h1> PROFES</h1>
+
+            <div class="profe-paula">
+                <h2>Profe Paula</h2>
+                <img src="img/ProfePaula1.jpg" alt="">
+                <p>
+
+                </p>
+            </div>
+
+            <div class="profe-elvo">
+                <h2>Prove Ivo</h2>
+                <img src="img/ProfeIvo.jpg" alt="">
+                <p>
+
+                </p>
+            </div>
+
+        </section>
 
 
-<footer>
-    <div>
-        <p>redes ! </p>
-    </div>
-</footer>  
+        <section>
+            <h1> CONSULTAS</h1>
+
+            <div>
+                <form action="">
+                    <div>
+                        <div>
+                            <label for="">Nombre</label>
+                            <input type="text" name="nombre" id="">
+                        </div>
+                        <div>
+                            <label for="">mail</label>
+                            <input type="mail" name="mail" id="">
+                        </div>
+                    </div>
+                    <label for="">Comentarios</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>redes ! </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
