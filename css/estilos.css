@@ -1,6 +1,11 @@
 /*** GLOBALES ***/
 * {
+    box-sizing: border-box;
     padding: 5px;
+  }
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -14,20 +19,36 @@ img {
 #logo {
     width: 100px;
 }
+
 iframe {
     max-width: 100%;
 }
 
+.urban-basic {
+    background-size: cover;
+    background-image: url('../img/FondoParaTexto3.jpg');
+}
+
+
+.tint {
+    background-color: rgba(124, 124, 252, 0.75);
+    background-blend-mode:soft-light;
+}
+
+.urban-basic p {
+    color: white;
+}
+
 
 /*** CUERPO PAGINA - TABLETS ***/
-@media (min-width: 400px) { 
+@media (min-width: 400px) {
     .containerMaps {
-       display: flex;
-       display: wrap;
-       background-color: yellow;
+        display: flex;
+        display: wrap;
+        background-color: yellow;
     }
 
-    .mapa1{
+    .mapa1 {
         background-color: green;
         width: 50%;
     }
@@ -36,7 +57,7 @@ iframe {
         background-color: green;
         width: 50%;
     }
-   
+
 
 
 }
