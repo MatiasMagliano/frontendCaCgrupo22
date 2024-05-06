@@ -6,6 +6,11 @@
 
 body, html {
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
 }
 
 img {
@@ -13,6 +18,8 @@ img {
     height: auto;
     object-fit: cover;
 }
+
+
 
 
 /*** CUERPO PAGINA - MOBILE FIRST ***/
@@ -30,7 +37,7 @@ iframe {
 }
 
 
-.tint {
+.tint-basic {
     background-color: rgba(124, 124, 252, 0.75);
     background-blend-mode:soft-light;
 }
@@ -40,8 +47,103 @@ iframe {
 }
 
 
+.inline {
+    background-size: cover;
+    background-image: url('../img/FondoParaTexto2.jpg');
+}
+
+
+.tint-inline {
+    background-color: rgba(124, 124, 252, 0.75);
+    background-blend-mode:soft-light;
+    
+}
+
+.urban-basic h2 {
+    text-align: center;
+}
+
+.urban-basic p {
+    text-align: justify;
+}
+
+.inline h2 {
+    text-align: center;
+}
+
+.inline p {
+    text-align: justify;
+}
+
+.columna-urban {
+    margin: 10px 0;
+    border-radius: 10px;
+    
+}
+.columna-inline{
+    margin: 10px 0;
+    border-radius: 10px;
+    
+}
+
+/* PROFES */
+/*
+.container-Profes {
+    
+
+}*/
+
+.card-Paula {
+    border: 1px solid  white;
+    margin: 10px 0;
+    text-align: center;
+   
+}
+.circle-Paula{
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+    width: 50%;
+    height: 150px;
+}
+
+.card-Ivo {
+    border: 1px solid  white;
+    margin: 10px 0;
+    text-align: center;
+}
+.circle-Ivo{
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+    width: 50%;
+    height: 150px;
+}
+
+
+
 /*** CUERPO PAGINA - TABLETS ***/
+
 @media (min-width: 400px) {
+    .contenedor-clases {
+        display: flex; 
+    }
+    .urban-basic {
+        background-size: center center ;
+    }
+    .inline {
+        background-size: center center;
+    }
+    .columna-urban {
+        margin: 0 10px;
+        
+    }
+    .columna-inline{
+        margin: 0 10px;
+        
+    }
+
+
     .containerMaps {
         display: flex;
         display: wrap;
@@ -58,6 +160,27 @@ iframe {
         width: 50%;
     }
 
+    .container-Profes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .circle-Paula{
+        background-size: cover;
+        border-radius: 50%;
+        margin: auto;
+        width: 100%;
+        height: 300px;
+    }
+
+    .circle-Ivo{
+        background-size: cover;
+        border-radius: 50%;
+        margin: auto;
+        width: 100%;
+        height: 300px;
+    }
+    
 
 
 }
