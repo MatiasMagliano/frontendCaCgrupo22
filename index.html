@@ -13,7 +13,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img id="logo" src="img/Logo.1.jpg">
@@ -32,13 +32,13 @@
                             <a class="nav-link" href="#">Clases</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Horaios</a>
+                            <a class="nav-link" href="#">Horarios</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Sedes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Profes</a>
+                            <a class="nav-link" href="#">Profesores</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Consultas</a>
@@ -50,10 +50,11 @@
                 </div>
             </div>
         </nav>
+        <img class="imgPortada" src="img/p.jpg" alt="">
     </header>
 
     <!-- puede ser eso o directamente un carrusell de fotos o buscar otra img de presentación-->
-    <img class="imgPortada" src="img/p.jpg" alt="">
+   
 
     <main>
         <!-- la idea es poner una imagen de fondo en cada texto-->
@@ -64,51 +65,59 @@
         <section class="contenedor-clases">     
 
             <div class="urban-basic tint-basic columna-urban">
-                <h2 class="title-urban">BASICO/URBANO</h2>
+                <h2 class="title-urban">BÁSICO/URBANO</h2>
                     <p>
-                        En estas clases aprenderas todas las habilidades y recursos necesarios para salir a 
+                        En estas clases aprenderás todas las habilidades y recursos necesarios para salir a 
                         patinar con seguridad y confianza empezando con los primeros pasos y la forma correcta y 
-                        tecnica de patinar. Ya sea que quieras solo pasear o salir a las calles. Veremos distintos 
-                        tipos de frenos como esquivar, doblar y cruzar diversos obtaculos. También patinaje para atras, 
-                        transcisiones, destrezas entre conos, saltos y derrapes. Todo esto podemos verlo desde cero y 
-                        tambien perfeccionar lo lo que ya sabes.
+                        técnica de patinar. Ya sea que quieras solo pasear o salir a las calles. Veremos distintos 
+                        tipos de frenos como esquivar, doblar y cruzar diversos obstáculos. También patinaje para atras, 
+                        transiciones, destrezas entre conos, saltos y derrapes. Todo esto podemos verlo desde cero y 
+                        también perfeccionar lo lo que ya sabes.
                     </p>
             </div>
 
             <div class="inline tint-inline columna-inline">
                 <h2 class="text-inline">INLINE / FREE STYLE</h2>
                 <p>
-                    En estas clases aprenderas trucos y movimientos entre conos pequeños. ¡Esta disciplina 
-                    es super entretenida! Hay muchisimos trucos e infinitas combinaciones para ver. Existen trucos 
+                    En estas clases aprenderás trucos y movimientos entre conos pequeños. ¡Esta disciplina 
+                    es super entretenida! Hay muchísimos trucos e infinitas combinaciones para ver. Existen trucos 
                     de frente, de espaldas, laterales, con giros, con saltos, agachados, de flexibilidad y mucho más. 
-                    Todos los trucos están divididos por categorias y familias. Lograras manejar tu cuerpo sobre los 
-                    rollers de una manera única. No necesitas un gran nivel para empezar con los basico, patinando para 
+                    Todos los trucos están divididos por categorías y familias. Lograras manejar tu cuerpo sobre los 
+                    rollers de una manera única. No necesitas un gran nivel para empezar con los básico, patinando para 
                     adelante es suficiente. El aprendizaje es progresivo y acorde a tu nivel.
                 </p>
             </div>
         </section>
 
-        <h1> HORARIOS </h1>
-        <section id="horarios"> <!-- DOS COLUMNAS -->
-            <div class="hor-palermo">
-                <h2>PALERMO</h2>
-                <ul>
-                    <li>horario 1</li>
-                    <li>horario 2</li>
-                    <li>horario 3</li>
-                    <li>horario 4</li>
-                    <li>horario 5</li>
-                </ul>
+        <section class="container-horarios" id="horarios">
+            <h1>HORARIOS</h1>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card horario-palermo">
+                  <h2 class="card-title">PALERMO</h2>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Horario 1: Lunes y Miércoles de 18:00 a 19:30</li>
+                    <li class="list-group-item">Horario 2: Martes y Jueves de 20:00 a 21:30</li>
+                    <li class="list-group-item">Horario 3: Viernes de 19:00 a 20:30</li>
+                    <li class="list-group-item">Horario 4: Sábados de 10:00 a 11:30</li>
+                    <li class="list-group-item">Horario 5: Domingos de 15:00 a 16:30</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card horario-ptomadero">
+                  <h2 class="card-title">PUERTO MADERO</h2>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Horario 1: Lunes y Miércoles de 19:00 a 20:30</li>
+                    <li class="list-group-item">Horario 2: Martes y Jueves de 21:00 a 22:30</li>
+                    <li class="list-group-item">Horario 3: Viernes de 20:00 a 21:30</li>
+                    <li class="list-group-item">Horario 4: Sábados de 11:00 a 12:30</li>
+                    <li class="list-group-item">Horario 5: Domingos de 16:00 a 17:30</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="hor-ptomadero">
-                <h2>PUERTO MADERO</h2>
-                <ul>
-                    <li>horario 1</li>
-                    <li>horario 2</li>
-                    <li>horario 3</li>
-                </ul>
-            </div>
-        </section>
+          </section>
 
 
 
@@ -131,57 +140,59 @@
             </div>
         </section>
 
-<section class="container-Profes">
-            <!-- DOS TARJETAS -->
-
-        <div class="card-Paula">
-            <div class="head">  
-                <div class="div-Paula" >
-                    <img src="img/ProfePaula1.jpg" alt="" class="circle-Paula">
+        <section class="container-profesores">
+            <h1>PROFESORES</h1>
+            <div class="row">
+              <div class="col-md-6">
+                <div >
+                  <img src="img/ProfePaula1.jpg" alt="Profe Paula" class="card-img-top">
+                  <div class="card-body">
+                    <h2 class="card-title">Profe Paula</h2>
+                    <p class="">
+                      Especialista en clases de Urbano y Free Style. 
+                      Más de 10 años de experiencia enseñando. 
+                      Campeona argentina de roller freestyle.
+                    </p>
+                    
+                  </div>
                 </div>
-            </div>
-            <div class="card-contenedor">
-                <h2>Profe Paula</h2>
-                <p>
-                </p>
-                <a href=""> Instagram </a>
-            </div>    
-        </div>
-
-        <div class="card-Ivo">
-            <div class="head">  
-                <div>
-                        <img src="img/ProfeIvo.jpg"alt="" class="circle-Paula">
+              </div>
+              <div class="col-md-6">
+                <div >
+                  <img src="img/ProfeIvo.jpg" alt="Profe Ivo" class="card-img-top">
+                  <div class="card-body">
+                    <h2 class="card-title">Profe Ivo</h2>
+                    <p class="">
+                      Experto en clases de Básico y Urbano. 
+                      5 años de experiencia como instructor. 
+                      Apasionado por el patinaje y la enseñanza.
+                    </p>
+                 
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="card-contenedor">
-                <h2>Profe Ivo</h2>
-                <p>
-                </p>
-                <a href=""> Instagram </a>
-            </div>    
-        </div>
-</section>
+          </section>
 
 
-        <section>
-            <h1> CONSULTAS</h1>
-
+          <section>
+            <h1>CONSULTAS</h1>
+        
             <div>
-                <form action="">
-                    <div>
-                        <div>
-                            <label for="">Nombre</label>
-                            <input type="text" name="nombre" id="">
-                        </div>
-                        <div>
-                            <label for="">mail</label>
-                            <input type="mail" name="mail" id="">
-                        </div>
+                <form action="" class="consulta-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" required>
                     </div>
-                    <label for="">Comentarios</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Enviar">
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comentarios">Comentarios</label>
+                        <textarea name="comentarios" id="comentarios" cols="30" rows="10" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
                 </form>
             </div>
         </section>
