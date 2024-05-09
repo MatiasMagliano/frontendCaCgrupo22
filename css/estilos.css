@@ -112,11 +112,11 @@ iframe {
 
 /* PROFES */
 
-.card-h1 {
+.cardProfes-h1 {
     text-align: center;
 }
 
-.card-container {
+.cardProfes-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,7 +124,7 @@ iframe {
     flex-wrap: wrap;
 }
 
-.card {
+.cardProfes {
     width: 250px;
     height: auto;
     /*position: relative;*/
@@ -136,11 +136,11 @@ iframe {
     padding: 20px;
 }
 
-.card > * {
+.cardProfes > * {
     padding: 10px;
 }
 
-.card .card-image {
+.cardProfes .cardProfes-image {
     height: 150px;
     width: 150px;
     border: 5px double pink;
@@ -149,21 +149,21 @@ iframe {
     background-size: cover;
 }
 
-.card .card-title {
+.cardProfes .cardProfes-title {
     padding: 20px 10px;
     text-transform: uppercase;
     text-shadow: 1px 0px 2px #262654;
 }
 
-.card:nth-child(1) .card-image {
-    background-image: url("img/ProfePaula1");
+.cardProfes:nth-child(1) .cardProfes-image {
+    background-image: url("..img/ProfePaula1");
 }
 
-.card:nth-child(2) .card-image {
-    background-image: url("img/ProfeIvo.jpg");
+.cardProfes:nth-child(2) .cardProfes-image {
+    background-image: url("..img/ProfeIvo");
 }
 
-.card:hover {
+.cardProfes:hover {
     background-color: blueviolet;
 }
 
