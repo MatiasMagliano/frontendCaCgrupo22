@@ -47,6 +47,23 @@ iframe {
     background-blend-mode:soft-light;
 }
 
+.urban-principiante {
+    background-size: cover;
+    background-image: url('../img/FondoParaTexto3.jpg');
+}
+
+.urban-basic {
+    background-size: cover;
+    background-image: url('../img/FondoParaTexto3.jpg');
+}
+.inline-intermedio {
+    background-size: cover;
+    background-image: url('../img/galeria.jpg');
+}
+
+h1.clases {
+    padding-top: 50px;
+  }
 .urban-basic p {
     color: white;
 }
@@ -91,26 +108,54 @@ iframe {
     
 }
 
+/* Horarios -------------------------------------------------------------------------------------------*/ 
+
+
+
 .container-horarios {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;   
-
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
-.container-horarios h2 {
+.columna {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 40%;
+    background-color: #333;
+}
+
+.columna:hover {
+    transform: translateY(-5px);
+}
+
+.columna h2 {
     text-align: center;
+    margin-bottom: 15px;
+    color: white;
 }
 
-.container-horarios ul {
-    list-style:none;
+.columna ul {
+    list-style: none;
+    padding: 0;
 }
 
-.container-horarios ul {
-    text-align: left;
+.columna ul li {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1.1em;
 }
 
+.columna ul li strong {
+    display: inline-block;
+    width: 130px;
+    font-weight: bold;
+}
 
-/* PROFES */
+/* PROFES -------------------------------------------------------------------------------------------*/ 
 
 .cardProfes-h1 {
     text-align: center;
@@ -119,55 +164,43 @@ iframe {
 .cardProfes-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 15px;
     flex-wrap: wrap;
 }
 
 .cardProfes {
-    width: 250px;
-    height: auto;
-    /*position: relative;*/
+    width: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     border-radius: 4px;
     padding: 20px;
-}
-
-.cardProfes > * {
-    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .cardProfes .cardProfes-image {
-    height: 150px;
-    width: 150px;
+    width: 400px; 
+    height: 350px; 
     border: 5px double pink;
     border-radius: 50%;
-    background-position: center center;
-    background-size: cover;
+    object-fit: cover;
 }
 
 .cardProfes .cardProfes-title {
     padding: 20px 10px;
     text-transform: uppercase;
     text-shadow: 1px 0px 2px #262654;
+    margin-top: 10px; 
 }
 
-.cardProfes:nth-child(1) .cardProfes-image {
-    background-image: url("..img/ProfePaula1");
+.cardProfes .cardProfes-text {
+    text-align: center; 
 }
 
-.cardProfes:nth-child(2) .cardProfes-image {
-    background-image: url("..img/ProfeIvo");
-}
 
 .cardProfes:hover {
-    background-color: blueviolet;
+    background-color: #333;
 }
-
-
 
 
 
@@ -201,44 +234,47 @@ iframe {
         margin: 0 10px;
         
     }
+}
 
-/* Hay otra forma de hacerlo ? */
-    .container-horarios li {
-        margin-left: 150px;
-    }
+/* Mapas -------------------------------------------------------------------------------------- */
+
   
-    .containerMaps {
-        
-        display: flex;
-        display: wrap;
-        background-color: #222;
-    }
-
-    .mapa1 {
-        background-color: #333;
-        width: 50%;
-    }
-
-    .mapa2 {
-        background-color: #333;
-        width: 50%;
-    }
-
+.containerMaps {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    background-color: #222;
+    padding: 20px;
 }
 
+.mapa {
+    flex-basis: calc(50% - 20px); /* El 20px es para tener en cuenta el margen */
+    margin-bottom: 20px; /* Espacio entre los mapas */
+    overflow: hidden; /* Para que el efecto de cambio de color no se vea fuera del contenedor */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
 
+.mapa:nth-child(odd) {
+    margin-right: 20px; /* Espacio entre los mapas */
+}
 
-.container-horarios {
-    padding: 50px 0;
+.mapa:hover {
+    background-color: #444; /* Color de fondo al pasar el ratón sobre el mapa */
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.mapa h2 {
     text-align: center;
-    background-color: #000;
-    color: #fff;
+    color: white;
 }
 
-.container-horarios h1 {
-    margin-bottom: 30px;
-    color: #fff;
-}
+
+
 
 .card {
     margin-bottom: 30px;
