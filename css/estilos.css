@@ -47,23 +47,27 @@ iframe {
     background-blend-mode:soft-light;
 }
 
-.urban-principiante {
-    background-size: cover;
-    background-image: url('../img/FondoParaTexto3.jpg');
-}
 
 .urban-basic {
     background-size: cover;
     background-image: url('../img/FondoParaTexto3.jpg');
 }
+
 .inline-intermedio {
     background-size: cover;
     background-image: url('../img/galeria.jpg');
 }
 
+.urban-basic2 {
+    background-size: cover;
+    background-image: url('../img/FondoParaTexto1.jpg');
+}
+
+
 h1.clases {
     padding-top: 50px;
   }
+
 .urban-basic p {
     color: white;
 }
@@ -81,11 +85,27 @@ h1.clases {
     
 }
 
+.inline2 {
+    background-size: cover;
+    background-image: url('../img/FondoParaTexto.jpg');
+}
+
+
+
+
 .urban-basic h2 {
     text-align: center;
 }
 
+.urban-basic2 h2 {
+    text-align: center;
+}
+
 .urban-basic p {
+    text-align: justify;
+}
+
+.urban-basic2 p {
     text-align: justify;
 }
 
@@ -94,6 +114,13 @@ h1.clases {
 }
 
 .inline p {
+    text-align: justify;
+}
+.inline2 h2 {
+    text-align: center;
+}
+
+.inline2 p {
     text-align: justify;
 }
 
@@ -109,8 +136,6 @@ h1.clases {
 }
 
 /* Horarios -------------------------------------------------------------------------------------------*/ 
-
-
 
 .container-horarios {
     display: flex;
@@ -217,13 +242,25 @@ h1.clases {
     .urban-basic {
         background-position: center;     
     }
+    .urban-basic2 {
+        background-position: center;     
+    }
     .urban-basic p {
+        padding: 40px;
+    }
+    .urban-basic2 p {
         padding: 40px;
     }
     .inline {
         background-position: center;
     }
     .inline p {
+        padding: 40px;
+    }
+    .inline2 {
+        background-position: center;
+    }
+    .inline2 p {
         padding: 40px;
     }
 
