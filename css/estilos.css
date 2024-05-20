@@ -227,7 +227,20 @@ h1.clases {
     background-color: #333;
 }
 
+.footer {
+    display: flex;
+    justify-content: end;
+}
 
+.logo-inst {
+    width: 15%;
+}
+
+.footer p {
+    color: white;
+    display: flex;
+    align-items: end;
+}
 
 
 /*** CUERPO PAGINA - TABLETS ***/
@@ -271,6 +284,11 @@ h1.clases {
         margin: 0 10px;
         
     }
+
+    .logo-inst {
+        width: 5%;
+    }
+    
 }
 
 /* Mapas -------------------------------------------------------------------------------------- */
