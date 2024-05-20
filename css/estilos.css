@@ -242,55 +242,6 @@ h1.clases {
     align-items: end;
 }
 
-
-/*** CUERPO PAGINA - TABLETS ***/
-
-@media (min-width: 400px) {
-/*quise tirar magia pero no salio*/
-    #logo:hover {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
-/* el titulo adentro de las tarjeta me quedo raro.*/
-    .contenedor-clases {
-        display: flex;       
-    }
-    .urban-basic {
-        background-position: center;     
-    }
-    .urban-basic2 {
-        background-position: center;     
-    }
-    .urban-basic p {
-        padding: 40px;
-    }
-    .urban-basic2 p {
-        padding: 40px;
-    }
-    .inline {
-        background-position: center;
-    }
-    .inline p {
-        padding: 40px;
-    }
-    .inline2 {
-        background-position: center;
-    }
-    .inline2 p {
-        padding: 40px;
-    }
-
-    .columna-urban {
-        margin: 0 10px;
-    }
-    .columna-inline{
-        margin: 0 10px;
-        
-    }
-
-    .logo-inst {
-        width: 5%;
-    }
-    
-}
-
 /* Mapas -------------------------------------------------------------------------------------- */
 
   
@@ -383,7 +334,7 @@ section h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.form-group {
+/* .form-group {
     margin-bottom: 20px;
 }
 
@@ -410,7 +361,7 @@ button[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
-}
+} */
 
 button[type="submit"]:hover {
     background-color: #666;
@@ -473,3 +424,51 @@ header {
     color: #007bff;
     font-weight: bold;
 }
+
+/*** CUERPO PAGINA - TABLETS ***/
+
+@media (min-width: 400px) {
+    /*quise tirar magia pero no salio*/
+        #logo:hover {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+    /* el titulo adentro de las tarjeta me quedo raro.*/
+        .contenedor-clases {
+            display: flex;       
+        }
+        .urban-basic {
+            background-position: center;     
+        }
+        .urban-basic2 {
+            background-position: center;     
+        }
+        .urban-basic p {
+            padding: 40px;
+        }
+        .urban-basic2 p {
+            padding: 40px;
+        }
+        .inline {
+            background-position: center;
+        }
+        .inline p {
+            padding: 40px;
+        }
+        .inline2 {
+            background-position: center;
+        }
+        .inline2 p {
+            padding: 40px;
+        }
+    
+        .columna-urban {
+            margin: 0 10px;
+        }
+        .columna-inline{
+            margin: 0 10px;
+            
+        }
+    
+        .logo-inst {
+            width: 5%;
+        }
+        
+    }
